@@ -10,7 +10,7 @@ I have keen interest in cars, planes and anything that contains an engine for th
 <br><br>
 
 
-## <img src="./src/icons/loading.svg" alt="audio" width="40" height="50" align ="center" style="margin-right:8px;">Stack & Tools
+## <img src="./src/icons/waveform.gif" alt="audio" width="50" height="70" align ="center" style="margin-right:8px;">Stack & Tools
 
 <table align="center">
   <tr>
