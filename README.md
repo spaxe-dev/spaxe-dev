@@ -16,7 +16,7 @@ I have keen interest in cars, planes and anything that contains an engine for th
   <tr>
     <td valign="top" width="10%">
       <h4><img src="./src/icons/waveform.gif" alt="audio" width="40" height="40" align ="center" style="margin-right:8px;">Stack</h4>
-        <img src="https://go-skill-icons.vercel.app/api/icons?i=python,numpy,sql,opencv,firebase,tailwind,html,css" />
+        <img src="https://go-skill-icons.vercel.app/api/icons?i=python,numpy,sqlite,opencv,firebase,tailwind,html,css" />
     </td>
     
   
