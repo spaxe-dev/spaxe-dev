@@ -3,7 +3,7 @@
 
 ## <img src="./src/icons/waveform.gif" alt="audio" width="50" height="70" align ="center" style="margin-right:8px;">About me 
 <p>
-Hello! I am Aadit, a first year BTech student who aspires to be a ML Engineer. <br>
+Hello! I am Aadit, a first year student who aspires to be a ML Engineer. <br>
 I'm focused on learning, coding, and building meaningful projects; step by step, every single day.<br><br>
 When I’m not coding, you’ll find me jamming to music or watching a F1 race.<br>
 I have keen interest in cars, planes and anything that contains an engine for that matter.
