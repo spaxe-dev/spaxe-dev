@@ -1,0 +1,39 @@
+name: Heatmap
+
+on:
+  schedule:
+    # GitHub runs frequent schedules on a best-effort basis, so this is the floor,
+    # not a guarantee: it fires close to 15 minutes after a commit elsewhere.
+    - cron: "*/15 * * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+concurrency: heatmap
+
+jobs:
+  heatmap:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - name: Redraw the year in blue
+        run: node scripts/heatmap.mjs
+      - name: Commit the card if it changed
+        shell: bash
+        run: |
+          git add assets/heatmap-*.svg
+          if git diff --cached --quiet; then
+            echo "The card is unchanged; nothing to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit --quiet --message "heatmap: redraw the year in blue [skip ci]"
+          git pull --rebase --autostash --quiet
+          git push --quiet
