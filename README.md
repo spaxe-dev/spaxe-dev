@@ -1,9 +1,12 @@
 <h1 align="center">Aadit Ahire</h1>
 
+<picture>
+  <source media="(max-width: 600px)" srcset="assets/koi-card-mobile.svg">
+  <img src="assets/koi-card.svg" width="100%" alt="A pixel-art platinum koi, redrawn every night from this account's public activity">
+</picture>
+
 <p align="center">
   <sub>Redrawn nightly from public activity with <a href="https://github.com/yalongwastaken/git-koi">git-koi</a></sub>
-  <br>
-  <img src="koi/koi.gif" width="256" alt="A pixel-art platinum koi, redrawn every night from this account's public activity">
 </p>
 
 I build agentic systems, embedded hardware and the web, usually where those three meet.
