@@ -22,21 +22,16 @@ jobs:
         with:
           body: platinum
           output-dir: koi
-      - uses: actions/setup-node@v4
-        with:
-          node-version: 24
-      - name: Wrap the koi in its card
-        run: node scripts/koi-card.mjs
-      - name: Commit the card if it changed
+      - name: Commit the koi if it changed
         shell: bash
         run: |
-          git add assets/koi-card.svg assets/koi-card-mobile.svg
+          git add koi/koi.gif
           if git diff --cached --quiet; then
-            echo "The card is unchanged; nothing to commit."
+            echo "The koi is unchanged; nothing to commit."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git commit --quiet --message "koi: wrap the day's koi in its card"
+          git commit --quiet --message "koi: draw the day's koi"
           git pull --rebase --autostash --quiet
           git push --quiet
