@@ -1,28 +1,54 @@
-# <p align="center"> Welcome to Spaxe's profile! </p>
-![Header Banner](./src/images/merc.jpg)
+<picture>
+  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/banner-dark-mobile.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
+  <source media="(max-width: 600px)" srcset="assets/banner-light-mobile.svg">
+  <img src="assets/banner-light.svg" alt="Aadit Ahire. Agentic systems, embedded hardware, and the web." width="100%">
+</picture>
 
-## <img src="./src/icons/waveform.gif" alt="audio" width="50" height="70" align ="center" style="margin-right:8px;">About me 
-<p>
-Hello! I am Aadit, a second year student who aspires to be a ML Engineer. <br>
-I'm focused on learning, coding, and building meaningful projects; step by step, every single day.<br><br>
-When I’m not coding, you’ll find me jamming to music or watching a F1 race.<br>
-I have keen interest in cars, planes and anything that contains an engine for that matter.
-<br><br>
+I build agentic systems, embedded hardware and the web, usually where those three meet.
 
+Most of the work is verification: calibrated thresholds, deterministic gates, evidence trails. A system should be able to explain why it said yes.
 
-## <img src="./src/icons/waveform.gif" alt="audio" width="50" height="70" align ="center" style="margin-right:8px;">Stack & Tools
+<picture>
+  <source media="(max-width: 600px)" srcset="assets/heatmap-light-mobile.svg">
+  <img src="assets/heatmap-light.svg" width="100%" alt="Every day, in blue: a year of public GitHub contributions, refreshed every 15 minutes">
+</picture>
 
-<table align="center">
-  <tr>
-    <td valign="top" width="10%">
-      <h4><img src="./src/icons/waveform.gif" alt="audio" width="40" height="40" align ="center" style="margin-right:8px;">Stack</h4>
-        <img src="https://go-skill-icons.vercel.app/api/icons?i=python,numpy,sqlite,opencv,firebase,tailwind,html,css" />
-    </td>
-    
-  
-  <td valign="top" width="10%">
-      <h4><img src="./src/icons/waveform.gif" alt="audio" width="40" height="40" align ="center" style="margin-right:8px;">Tools</h4>
-    <img src="https://go-skill-icons.vercel.app/api/icons?i=vscode,github,git,vercel" />
-    </td>
-  </tr>
-</table>
+## Selected work
+
+- **[Zen MCP](https://github.com/spaxe-dev/zen-mcp)**: an MCP server that lets an agent work inside Zen Browser, with native spaces, background research tabs, in-browser questions, and an evidence mode that reopens the source it cites. TypeScript, 53 tools, on [npm](https://www.npmjs.com/package/@spaxe-dev/zen-mcp).
+- **[SatQuery](https://github.com/spaxe-dev/satquery)**: a local-first remote-sensing assistant that validates inputs, routes specialist tools, fuses optical and SAR evidence, and returns the reasoning trace behind its answer. Python, FastAPI.
+- **[ZipCheck](https://github.com/spaxe-dev/zipcheck)**: a static archive-bomb detector that reads metadata, follows nested archives, and verifies real output without writing extracted files. Python, on [PyPI](https://pypi.org/project/zipcheck/).
+- **[Tremor Pro](https://github.com/spaxe-dev/Tremor-Pro)**: ESP32 and MPU6050 motion capture with band-power features, a random-forest classifier, and a local session dashboard. C++, FastAPI.
+
+Also: [Ethanol Blend Analyzer](https://github.com/spaxe-dev/ethanol-blend-analyzer) for calibrated fuel sensing on an ESP32, and [AIRI](https://github.com/spaxe-dev/airi-security-agent), an autonomous security agent built for AIJC 2026.
+
+## Open source
+
+- **[HatchZip](https://github.com/xevrion/hatchzip)** (Rust): merged [#23](https://github.com/xevrion/hatchzip/pull/23) and [#37](https://github.com/xevrion/hatchzip/pull/37), with [#100](https://github.com/xevrion/hatchzip/pull/100) open. #37 verifies extracted files before truncating, so a file removed mid-run no longer disappears silently.
+- **[OpenCode](https://github.com/anomalyco/opencode)** (TypeScript): open [#60178](https://github.com/anomalyco/opencode/pull/60178), a keyboard-driven path picker for the last response in the TUI.
+
+## Stack
+
+- **Embedded systems:** C, C++, ESP32, STM32, Linux, UART, SPI, I²C, RTOS
+- **Machine learning:** Python, PyTorch, OpenCV, Transformers, FAISS, model evaluation
+- **Software:** TypeScript, React, Next.js, React Native, FastAPI, Docker, PostgreSQL, Git
+
+The tools that show up in the work, not everything I have tried.
+
+<picture>
+  <source media="(max-width: 600px)" srcset="assets/off-the-clock-mobile.svg">
+  <img src="assets/off-the-clock.svg" width="100%" alt="Off the clock: F1, planes, cars, bikes">
+</picture>
+
+<p align="center">
+  <sub>Redrawn nightly from public activity with <a href="https://github.com/yalongwastaken/git-koi">git-koi</a></sub>
+  <br>
+  <img src="koi/koi.gif" width="256" alt="A pixel-art platinum koi, redrawn every night from this account's public activity">
+</p>
+
+---
+
+[aadit.tech](https://aadit.tech) · [GitHub](https://github.com/spaxe-dev)
+
+Open to internships and freelance work.
