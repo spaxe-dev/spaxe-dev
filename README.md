@@ -1,18 +1,14 @@
-<picture>
-  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/banner-dark-mobile.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
-  <source media="(max-width: 600px)" srcset="assets/banner-light-mobile.svg">
-  <img src="assets/banner-light.svg" alt="Aadit Ahire. Agentic systems, embedded hardware, and the web." width="100%">
-</picture>
+<h1 align="center">Aadit Ahire</h1>
+
+<p align="center">
+  <sub>Redrawn nightly from public activity with <a href="https://github.com/yalongwastaken/git-koi">git-koi</a></sub>
+  <br>
+  <img src="koi/koi.gif" width="256" alt="A pixel-art platinum koi, redrawn every night from this account's public activity">
+</p>
 
 I build agentic systems, embedded hardware and the web, usually where those three meet.
 
 Most of the work is verification: calibrated thresholds, deterministic gates, evidence trails. A system should be able to explain why it said yes.
-
-<picture>
-  <source media="(max-width: 600px)" srcset="assets/heatmap-light-mobile.svg">
-  <img src="assets/heatmap-light.svg" width="100%" alt="Every day, in blue: a year of public GitHub contributions, refreshed every 15 minutes">
-</picture>
 
 ## Selected work
 
@@ -37,15 +33,14 @@ Also: [Ethanol Blend Analyzer](https://github.com/spaxe-dev/ethanol-blend-analyz
 The tools that show up in the work, not everything I have tried.
 
 <picture>
+  <source media="(max-width: 600px)" srcset="assets/heatmap-light-mobile.svg">
+  <img src="assets/heatmap-light.svg" width="100%" alt="Every day, in blue: a year of public GitHub contributions, refreshed every 15 minutes">
+</picture>
+
+<picture>
   <source media="(max-width: 600px)" srcset="assets/off-the-clock-mobile.svg">
   <img src="assets/off-the-clock.svg" width="100%" alt="Off the clock: F1, planes, cars, bikes">
 </picture>
-
-<p align="center">
-  <sub>Redrawn nightly from public activity with <a href="https://github.com/yalongwastaken/git-koi">git-koi</a></sub>
-  <br>
-  <img src="koi/koi.gif" width="256" alt="A pixel-art platinum koi, redrawn every night from this account's public activity">
-</p>
 
 ---
 
