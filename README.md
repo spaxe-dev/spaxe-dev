@@ -25,7 +25,6 @@ Also: [Ethanol Blend Analyzer](https://github.com/spaxe-dev/ethanol-blend-analyz
 ## Open source
 
 - **[HatchZip](https://github.com/xevrion/hatchzip)** (Rust): merged [#23](https://github.com/xevrion/hatchzip/pull/23) and [#37](https://github.com/xevrion/hatchzip/pull/37), with [#100](https://github.com/xevrion/hatchzip/pull/100) open. #37 verifies extracted files before truncating, so a file removed mid-run no longer disappears silently.
-- **[OpenCode](https://github.com/anomalyco/opencode)** (TypeScript): open [#60178](https://github.com/anomalyco/opencode/pull/60178), a keyboard-driven path picker for the last response in the TUI.
 
 ## Stack
 
